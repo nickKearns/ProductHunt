@@ -16,6 +16,8 @@
 		0106B61A2450DC9D00FFB7E6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106B6192450DC9D00FFB7E6 /* Post.swift */; };
 		0106B6202450E92200FFB7E6 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106B61F2450E92200FFB7E6 /* PostTableViewCell.swift */; };
 		0106B6222450FCC900FFB7E6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106B6212450FCC900FFB7E6 /* NetworkManager.swift */; };
+		0106B62424510AB400FFB7E6 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106B62324510AB400FFB7E6 /* CommentsViewController.swift */; };
+		0106B62624510ED400FFB7E6 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106B62524510ED400FFB7E6 /* CommentTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		0106B6192450DC9D00FFB7E6 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		0106B61F2450E92200FFB7E6 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		0106B6212450FCC900FFB7E6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0106B62324510AB400FFB7E6 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		0106B62524510ED400FFB7E6 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				0106B6072450CB7400FFB7E6 /* SceneDelegate.swift */,
 				0106B6092450CB7400FFB7E6 /* FeedViewController.swift */,
 				0106B61F2450E92200FFB7E6 /* PostTableViewCell.swift */,
+				0106B62524510ED400FFB7E6 /* CommentTableViewCell.swift */,
+				0106B62324510AB400FFB7E6 /* CommentsViewController.swift */,
 				0106B6192450DC9D00FFB7E6 /* Post.swift */,
 				0106B60B2450CB7400FFB7E6 /* Main.storyboard */,
 				0106B60E2450CB7600FFB7E6 /* Assets.xcassets */,
@@ -149,6 +155,8 @@
 			files = (
 				0106B6222450FCC900FFB7E6 /* NetworkManager.swift in Sources */,
 				0106B60A2450CB7400FFB7E6 /* FeedViewController.swift in Sources */,
+				0106B62424510AB400FFB7E6 /* CommentsViewController.swift in Sources */,
+				0106B62624510ED400FFB7E6 /* CommentTableViewCell.swift in Sources */,
 				0106B6062450CB7400FFB7E6 /* AppDelegate.swift in Sources */,
 				0106B6202450E92200FFB7E6 /* PostTableViewCell.swift in Sources */,
 				0106B6082450CB7400FFB7E6 /* SceneDelegate.swift in Sources */,

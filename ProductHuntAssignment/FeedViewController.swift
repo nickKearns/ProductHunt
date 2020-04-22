@@ -16,14 +16,14 @@ class FeedViewController: UIViewController {
     
     // Array of Post objects to simulate real data coming in
     // Make sure each property that we're assigning to a UI element has a value for each mock Post.
-//    var mockData: [Post] = {
-//        var meTube = Post(id: 0, name: "MeTube", tagline: "Stream videos for free!", votesCount: 25, commentsCount: 4)
-//        var boogle = Post(id: 1, name: "Boogle", tagline: "Search anything!", votesCount: 1000, commentsCount: 50)
-//        var meTunes = Post(id: 2, name: "meTunes", tagline: "Listen to any song!", votesCount: 25000, commentsCount: 590)
-//
-//        return [meTube, boogle, meTunes]
-//    }()
-//
+    //    var mockData: [Post] = {
+    //        var meTube = Post(id: 0, name: "MeTube", tagline: "Stream videos for free!", votesCount: 25, commentsCount: 4)
+    //        var boogle = Post(id: 1, name: "Boogle", tagline: "Search anything!", votesCount: 1000, commentsCount: 50)
+    //        var meTunes = Post(id: 2, name: "meTunes", tagline: "Listen to any song!", votesCount: 25000, commentsCount: 590)
+    //
+    //        return [meTube, boogle, meTunes]
+    //    }()
+    //
     
     var posts: [Post] = [] {
         didSet {
@@ -84,4 +84,17 @@ extension FeedViewController: UITableViewDataSource {
 // MARK: UITableViewDelegate
 extension FeedViewController: UITableViewDelegate {
     // Code to handle cell events goes here...
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let post = posts[indexPath.row]
+        // Get the storyboard
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        // Get the commentsView from the storyboard
+        guard let commentsView = storyboard.instantiateViewController(withIdentifier: "commentsView") as? CommentsViewController else {
+            return
+        }
+        // add mock comments
+        commentsView.comments = ["Blah blah blah!", "Good app.", "Wow."]
+        navigationController?.pushViewController(commentsView, animated: true)
+    }
 }
+
