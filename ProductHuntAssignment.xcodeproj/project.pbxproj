@@ -64,11 +64,11 @@
 				0106B6072450CB7400FFB7E6 /* SceneDelegate.swift */,
 				0106B6092450CB7400FFB7E6 /* FeedViewController.swift */,
 				0106B61F2450E92200FFB7E6 /* PostTableViewCell.swift */,
+				0106B6192450DC9D00FFB7E6 /* Post.swift */,
 				0106B60B2450CB7400FFB7E6 /* Main.storyboard */,
 				0106B60E2450CB7600FFB7E6 /* Assets.xcassets */,
 				0106B6102450CB7600FFB7E6 /* LaunchScreen.storyboard */,
 				0106B6132450CB7600FFB7E6 /* Info.plist */,
-				0106B6192450DC9D00FFB7E6 /* Post.swift */,
 			);
 			path = ProductHuntAssignment;
 			sourceTree = "<group>";
