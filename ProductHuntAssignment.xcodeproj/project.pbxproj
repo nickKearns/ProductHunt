@@ -14,6 +14,7 @@
 		0106B60F2450CB7600FFB7E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0106B60E2450CB7600FFB7E6 /* Assets.xcassets */; };
 		0106B6122450CB7600FFB7E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0106B6102450CB7600FFB7E6 /* LaunchScreen.storyboard */; };
 		0106B61A2450DC9D00FFB7E6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106B6192450DC9D00FFB7E6 /* Post.swift */; };
+		0106B6202450E92200FFB7E6 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106B61F2450E92200FFB7E6 /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0106B6112450CB7600FFB7E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0106B6132450CB7600FFB7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0106B6192450DC9D00FFB7E6 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0106B61F2450E92200FFB7E6 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				0106B6052450CB7400FFB7E6 /* AppDelegate.swift */,
 				0106B6072450CB7400FFB7E6 /* SceneDelegate.swift */,
 				0106B6092450CB7400FFB7E6 /* FeedViewController.swift */,
+				0106B61F2450E92200FFB7E6 /* PostTableViewCell.swift */,
 				0106B60B2450CB7400FFB7E6 /* Main.storyboard */,
 				0106B60E2450CB7600FFB7E6 /* Assets.xcassets */,
 				0106B6102450CB7600FFB7E6 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				0106B60A2450CB7400FFB7E6 /* FeedViewController.swift in Sources */,
 				0106B6062450CB7400FFB7E6 /* AppDelegate.swift in Sources */,
+				0106B6202450E92200FFB7E6 /* PostTableViewCell.swift in Sources */,
 				0106B6082450CB7400FFB7E6 /* SceneDelegate.swift in Sources */,
 				0106B61A2450DC9D00FFB7E6 /* Post.swift in Sources */,
 			);
