@@ -66,3 +66,14 @@ extension Post: Decodable {
     
 }
 
+struct CommentApiResponse: Decodable {
+   let comments: [Comment]
+}
+
+struct Comment: Decodable {
+    let id: Int
+    let body: String
+    
+    
+}
+
